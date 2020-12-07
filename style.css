@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  background: rebeccapurple;
+  letter-spacing: 1px;
+}
+
+section {
+  background: rgb(55, 7, 104);
+  min-width: 300px;
+  border-radius: 0.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+section h1 {
+  margin: 0.5rem 0;
+}
+
+.pw-header {
+  padding: 1rem;
+}
+
+.pw-container {
+  background-color: rgb(69, 28, 109);
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+  overflow: auto;
+  border-radius: 0.2rem;
+}
+
+.pw-body {
+  padding: 0 1rem 1rem;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  color: #efe;
+}
+
+.pw-body button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto 1rem;
+  background: rebeccapurple;
+  outline: none;
+  border: none;
+  color: #efe;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+
+.pw-body button:hover {
+  background: rgb(69, 28, 109);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Strong Password Generator</h1>
+      <div class="pw-header">
+        <div class="pw-container">
+          <p id="password">Generated Password Will Shown Here</p>
+        </div>
+      </div>
+
+      <div class="pw-body">
+        <div class="form-control">
+          <label for="length">Password Length</label>
+          <input type="number" id="length" value="15" min="4" max="30" />
+        </div>
+
+        <div class="form-control">
+          <label for="upperCase">Contain Uppercase Letter</label>
+          <input type="checkbox" id="upperCase" />
+        </div>
+
+        <div class="form-control">
+          <label for="lowerCase">Contain Lowercase Letter</label>
+          <input type="checkbox" id="lowerCase" />
+        </div>
+
+        <div class="form-control">
+          <label for="number">Contain Numbers</label>
+          <input type="checkbox" id="number" />
+        </div>
+
+        <div class="form-control">
+          <label for="symbol">Contain Symbols</label>
+          <input type="checkbox" id="symbol" />
+        </div>
+        <button id="generatePassword">Generate Strong Password</button>
+      </div>
+    </section>
+    <!-- Javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
